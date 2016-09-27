@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hey Friends</title>
+    </head>
+<style>
+.black {
+background-color:black;
+    color:white;
+    margin:20px;
+    padding:20px;
+}
+</style>
+
+    <body style="text-align:center">
+<div class="black">
+        <h1> Hello </h1>
+        <hr>
+        <form action="action_page.php">
+            <input type="text" name="fname" placeholder="Name">
+            <input type="submit" value="Submit">
+        </form>
+
+
+        <p>Pick a number</p>
+        <button type="button" onclick="alert('incorrect')">
+1</button>
+        <button type="button" onclick="alert('incorrect')">
+2</button>
+        <button type="button" onclick="alert('incorrect')">
+3</button>
+        <button type="button" onclick="alert('correct')">
+4</button>
+<div>
+
+    </body>
+    
+</html>
